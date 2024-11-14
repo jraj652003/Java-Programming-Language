@@ -26,14 +26,14 @@ class ForTest {
         int y;
 
         System.err.print("y is:");
-        for (y = 0; y < 10; y++)
+        for (y = 0; y < 10; y++)        // ++ : increment operator
             System.out.print(" " + y);
         System.out.println();
 
         int z;
 
         System.err.print("z is:");
-        for (z = 10; z > 0; z--)
+        for (z = 10; z > 0; z--)        // -- : decrement operator
             System.out.print(" " + z);
         System.out.println();
     }
